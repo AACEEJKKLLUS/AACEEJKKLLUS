@@ -1,0 +1,1 @@
+.card{box-shadow:#ccc 0 0 .8rem;border-radius:.5rem;padding:1rem}.card-header{display:grid;grid-template-columns:1fr auto;align-items:center;gap:1rem;-webkit-tap-highlight-color:transparent}.card-header:hover{cursor:pointer}.card-body,.card-footer{margin-top:1rem}@media (prefers-color-scheme: dark){.card{box-shadow:#333 0 0 .5rem}}

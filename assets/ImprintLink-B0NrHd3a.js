@@ -1,0 +1,1 @@
+import{j as i}from"./index-lQDFEeu_.js";function r({imprintVisible:n,onClick:t}){return i.jsx("span",{id:"imprint-button",className:n?"imprint-button-clicked":void 0,onClick:t,children:"Impressum"})}export{r as default};
