@@ -1,1 +1,5 @@
-.match{display:flex;flex-direction:column;gap:1.25rem}
+.match {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}

@@ -1,1 +1,18 @@
-#imprint-content{display:flex;flex-direction:column}#imprint-content span{margin:.25rem 0}#imprint-content .imprint-headline{font-weight:bolder;margin-top:1rem;margin-bottom:.2rem}#imprint-content .imprint-headline:nth-of-type(1){margin-top:0}#imprint-content .imprint-longtext{text-align:justify}
+#imprint-content {
+    display: flex;
+    flex-direction: column;
+}
+#imprint-content span {
+    margin: 0.25rem 0;
+}
+#imprint-content .imprint-headline {
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+#imprint-content .imprint-headline:nth-of-type(1) {
+    margin-top: 0;
+}
+#imprint-content .imprint-longtext {
+    text-align: justify;
+}

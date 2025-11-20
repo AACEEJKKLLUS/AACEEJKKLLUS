@@ -1,1 +1,5 @@
-import{j as i}from"./index-DdFBsOwr.js";function m({imprintVisible:t,onClick:n}){return i.jsx("span",{id:"imprint-button",className:t?"imprint-button-clicked":void 0,onClick:n,children:"Impressum"})}export{m as default};
+import { j as i } from './index-DdFBsOwr.js'
+function m({ imprintVisible: t, onClick: n }) {
+    return i.jsx('span', { id: 'imprint-button', className: t ? 'imprint-button-clicked' : void 0, onClick: n, children: 'Impressum' })
+}
+export { m as default }

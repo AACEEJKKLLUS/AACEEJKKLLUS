@@ -1,2 +1,25 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/ProfileImage-C1X10G8q.js","assets/index-DW_7zADx.js","assets/index-BO9A5s5s.css","assets/ProfileImage-DE65gA0_.css"])))=>i.map(i=>d[i]);
-import{j as e,r,_ as i}from"./index-DW_7zADx.js";const a=r.lazy(()=>i(()=>import("./ProfileImage-C1X10G8q.js"),__vite__mapDeps([0,1,2,3])));function d(){return e.jsxs("div",{id:"header",children:[e.jsx("div",{id:"header-image",children:e.jsx(a,{})}),e.jsx("span",{id:"header-name",children:"Lukas Jaeckle"}),e.jsx("span",{id:"header-title",children:"Selbstständiger Softwarearchitekt & ‑entwickler"}),e.jsx("span",{id:"header-vision",children:"Gemeinsam zum wertmaximierten Produkt"})]})}export{d as default};
+const __vite__mapDeps = (
+    i,
+    m = __vite__mapDeps,
+    d = m.f ||
+        (m.f = [
+            'assets/ProfileImage-C1X10G8q.js',
+            'assets/index-DW_7zADx.js',
+            'assets/index-BO9A5s5s.css',
+            'assets/ProfileImage-DE65gA0_.css',
+        ])
+) => i.map((i) => d[i])
+import { j as e, r, _ as i } from './index-DW_7zADx.js'
+const a = r.lazy(() => i(() => import('./ProfileImage-C1X10G8q.js'), __vite__mapDeps([0, 1, 2, 3])))
+function d() {
+    return e.jsxs('div', {
+        id: 'header',
+        children: [
+            e.jsx('div', { id: 'header-image', children: e.jsx(a, {}) }),
+            e.jsx('span', { id: 'header-name', children: 'Lukas Jaeckle' }),
+            e.jsx('span', { id: 'header-title', children: 'Selbstständiger Softwarearchitekt & ‑entwickler' }),
+            e.jsx('span', { id: 'header-vision', children: 'Gemeinsam zum wertmaximierten Produkt' }),
+        ],
+    })
+}
+export { d as default }

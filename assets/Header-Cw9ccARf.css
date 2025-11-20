@@ -1,1 +1,65 @@
-#header{display:grid;grid-template-columns:auto 2rem auto;grid-template-rows:1fr auto auto auto 1fr;margin-top:2rem;justify-content:center;align-items:center;text-align:left}#header-image{grid-row:1 / span 5;grid-column:1 / span 1}#header-name{grid-row:2 / span 1;grid-column:3 / span 1;font-size:xx-large;margin-bottom:.5rem}#header-title{grid-row:3 / span 1;grid-column:3 / span 1;font-size:large;margin-bottom:.15rem}#header-vision{grid-row:4 / span 1;grid-column:3 / span 1;font-size:medium;font-style:italic;color:#595959}@media only screen and (max-width: 512px){#header{grid-template-columns:auto 2rem 1fr;grid-template-rows:1fr auto auto 1fr 1.5rem auto}#header-image{grid-row:1 / span 4;grid-column:1 / span 1}#header-name{grid-row:2 / span 1;grid-column:3 / span 1;font-size:large;margin-bottom:.5rem}#header-title{grid-row:3 / span 1;grid-column:3 / span 1;font-size:medium;margin-bottom:.15rem}#header-vision{grid-row:6 / span 1;grid-column:1 / span 3;font-size:medium;text-align:center}}@media (prefers-color-scheme: dark){#header-vision{color:#999}}
+#header {
+    display: grid;
+    grid-template-columns: auto 2rem auto;
+    grid-template-rows: 1fr auto auto auto 1fr;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+#header-image {
+    grid-row: 1 / span 5;
+    grid-column: 1 / span 1;
+}
+#header-name {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    font-size: xx-large;
+    margin-bottom: 0.5rem;
+}
+#header-title {
+    grid-row: 3 / span 1;
+    grid-column: 3 / span 1;
+    font-size: large;
+    margin-bottom: 0.15rem;
+}
+#header-vision {
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 1;
+    font-size: medium;
+    font-style: italic;
+    color: #595959;
+}
+@media only screen and (max-width: 512px) {
+    #header {
+        grid-template-columns: auto 2rem 1fr;
+        grid-template-rows: 1fr auto auto 1fr 1.5rem auto;
+    }
+    #header-image {
+        grid-row: 1 / span 4;
+        grid-column: 1 / span 1;
+    }
+    #header-name {
+        grid-row: 2 / span 1;
+        grid-column: 3 / span 1;
+        font-size: large;
+        margin-bottom: 0.5rem;
+    }
+    #header-title {
+        grid-row: 3 / span 1;
+        grid-column: 3 / span 1;
+        font-size: medium;
+        margin-bottom: 0.15rem;
+    }
+    #header-vision {
+        grid-row: 6 / span 1;
+        grid-column: 1 / span 3;
+        font-size: medium;
+        text-align: center;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    #header-vision {
+        color: #999;
+    }
+}

@@ -1,2 +1,27 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/ImprintContent-DOplZJSj.js","assets/index-DW_7zADx.js","assets/index-BO9A5s5s.css","assets/ImprintContent-EIPM9Rtp.css","assets/ImprintLink-CHEoERCJ.js","assets/ImprintLink-BLUAqoQ5.css"])))=>i.map(i=>d[i]);
-import{r as e,j as t,_ as s}from"./index-DW_7zADx.js";const o=e.lazy(()=>s(()=>import("./ImprintContent-DOplZJSj.js"),__vite__mapDeps([0,1,2,3]))),r=e.lazy(()=>s(()=>import("./ImprintLink-CHEoERCJ.js"),__vite__mapDeps([4,1,2,5])));function l(){const[i,n]=e.useState(!1);return t.jsxs("div",{id:"footer",children:[i&&t.jsxs("div",{className:"footer-imprint-container",children:[" ",t.jsx(o,{onClick:()=>n(!1)})," "]}),t.jsx("div",{className:"footer-link-container",children:t.jsx(r,{imprintVisible:i,onClick:()=>n(!i)})})]})}export{l as default};
+const __vite__mapDeps = (
+    i,
+    m = __vite__mapDeps,
+    d = m.f ||
+        (m.f = [
+            'assets/ImprintContent-DOplZJSj.js',
+            'assets/index-DW_7zADx.js',
+            'assets/index-BO9A5s5s.css',
+            'assets/ImprintContent-EIPM9Rtp.css',
+            'assets/ImprintLink-CHEoERCJ.js',
+            'assets/ImprintLink-BLUAqoQ5.css',
+        ])
+) => i.map((i) => d[i])
+import { r as e, j as t, _ as s } from './index-DW_7zADx.js'
+const o = e.lazy(() => s(() => import('./ImprintContent-DOplZJSj.js'), __vite__mapDeps([0, 1, 2, 3]))),
+    r = e.lazy(() => s(() => import('./ImprintLink-CHEoERCJ.js'), __vite__mapDeps([4, 1, 2, 5])))
+function l() {
+    const [i, n] = e.useState(!1)
+    return t.jsxs('div', {
+        id: 'footer',
+        children: [
+            i && t.jsxs('div', { className: 'footer-imprint-container', children: [' ', t.jsx(o, { onClick: () => n(!1) }), ' '] }),
+            t.jsx('div', { className: 'footer-link-container', children: t.jsx(r, { imprintVisible: i, onClick: () => n(!i) }) }),
+        ],
+    })
+}
+export { l as default }

@@ -1,1 +1,18 @@
-.you-search{display:flex;flex-direction:column;gap:1.25rem}.modal-reference{color:#050505;padding:1rem;margin:-1rem}.modal-reference:hover{cursor:pointer}@media (prefers-color-scheme: dark){.modal-reference{color:#d9d9d9}}
+.you-search {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.modal-reference {
+    color: #050505;
+    padding: 1rem;
+    margin: -1rem;
+}
+.modal-reference:hover {
+    cursor: pointer;
+}
+@media (prefers-color-scheme: dark) {
+    .modal-reference {
+        color: #d9d9d9;
+    }
+}
