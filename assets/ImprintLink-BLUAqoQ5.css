@@ -1,1 +1,10 @@
-#imprint-button{width:fit-content}#imprint-button:hover,.imprint-button-clicked{text-decoration:underline}#imprint-button:hover{cursor:pointer}
+#imprint-button {
+    width: fit-content;
+}
+#imprint-button:hover,
+.imprint-button-clicked {
+    text-decoration: underline;
+}
+#imprint-button:hover {
+    cursor: pointer;
+}
