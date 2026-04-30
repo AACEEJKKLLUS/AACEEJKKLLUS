@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/Notification-CRJUhz9m.js","assets/index-j_WdFL_8.js","assets/index-DdxDlPNG.css","assets/Notification-7f1c8nXP.css"])))=>i.map(i=>d[i]);
-import{j as e,r as n,_ as t}from"./index-j_WdFL_8.js";const r=n.lazy(()=>t(()=>import("./Notification-CRJUhz9m.js"),__vite__mapDeps([0,1,2,3])));function i(){return e.jsx("div",{className:"match",children:e.jsx(r,{children:"Vielen Dank für Ihr Interesse! Aktuell bin ich leider ausgebucht und kann keine neuen Aufträge annehmen."})})}export{i as default};
